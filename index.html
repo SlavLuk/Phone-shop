@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <script src="smartmenus-1.0.0/smartmenus-1.0.0/jquery.smartmenus.min.js"></script>
+
+    <script src="smartmenus-1.0.0/smartmenus-1.0.0/addons/bootstrap/jquery.smartmenus.bootstrap.js"></script>
+
+    <link href="smartmenus-1.0.0/smartmenus-1.0.0/addons/bootstrap/jquery.smartmenus.bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>Phone Zone</title>
+
+
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-default navbar">
+
+        <div class="container-fluid">
+            <div class="top row">
+                <div class = "col-md-11">
+
+                    <p class="navbar-text navbar-right">Basket:&nbsp;<span>0.00</span><span class="glyphicon glyphicon-euro" aria-hidden="true"></span></p>
+
+
+                </div>
+            </div>
+
+<div class="clearfix"></div>
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <span id="logo">Phone Zone</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li>
+                        <a href="support.html">FAQ</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                           aria-expanded="false">Products <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="all_phones.html">All phones</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+                <form class="navbar-form navbar-right" role="search">
+
+
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search" id="search">
+                    </div>
+                    <button type="submit" class="btn btn-default">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+
+
+                </form>
+                <button type="button" class="btn btn-default  navbar-btn navbar-right">
+                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+
+
+
+                </button>
+
+             <!--<button type="button" class="btn btn-default navbar-btn navbar-right login" > <a href="login.html"> Log in</a></button>-->
+                <a href="login.html" role="button"  class="btn btn-default navbar-btn navbar-right login" aria-expanded="false"> Log in</a>
+
+                <a href="signup.html" role="button"  class="btn btn-primary navbar-btn navbar-right signin" aria-expanded="false"> Sign up</a>
+
+                <!--<button type="button" class="btn btn-primary navbar-btn navbar-right  signin" > <a href="signup.html">Sign up</a></button>-->
+
+
+            </div><!-- /.navbar-collapse -->
+
+
+        </div><!-- /.container-->
+    </nav>
+
+        <div class="carousel slide" data-ride="carousel" id="featured">
+
+
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#featured" data-slide-to="0" class="active"></li>
+                <li data-target="#featured" data-slide-to="1"></li>
+                <li data-target="#featured" data-slide-to="2"></li>
+                <li data-target="#featured" data-slide-to="3"></li>
+                <li data-target="#featured" data-slide-to="4"></li>
+                <li data-target="#featured" data-slide-to="5"></li>
+            </ol>
+
+            <div class="carousel-inner " role="listbox">
+                <div class="item "> <img src="images/slides/meizu_mx_5.jpg" alt="meizu"></div>
+                <div class="item"><img src="images/slides/Xiaomi-Mi-Note-Pro-4.jpg" alt="xiaomi"></div>
+                <div class="item active"><img src="images/slides/sony_xperia_z5.jpg" alt="sony"></div>
+                <div class="item"><img src="images/slides/huawei_g8.jpg" alt="huawei"></div>
+                <div class="item"><img src="images/slides/xiaomi-redmi.jpg" alt="redmi"></div>
+                <div class="item"><img src="images/slides/samsung_galaxy_s6_1.jpg" alt="samsung"></div>
+
+            </div>
+
+
+            <a class="left carousel-control" href="#featured" role="button"
+               data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="right carousel-control" href="#featured" role="button"
+               data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        <!--</div>&lt;!&ndash;container&ndash;&gt;-->
+        </div> <!-- carousel slide-->
+
+
+</header>
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="all_phones.html" class="anchead">
+                <div class="adcontainer">
+                    <span class="adhead">Find a Phone</span>
+                    <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
+                </div>
+                </a>
+
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="anchead">
+                <div class="adcontainer">
+                <span class="adhead">Find a Plan</span>
+                    <span class="glyphicon glyphicon-file" aria-hidden="true"></span>
+                </div>
+                </a>
+            </div><!--col-md-4-->
+            <div class="col-md-4">
+                <a href="#" class="anchead">
+                <div class="adcontainer">
+                    <span class="adhead">Compare</span>
+                    <span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>
+                </div>
+                </a>
+            </div><!--col-md-4-->
+
+
+
+        </div><!--row-->
+    </div><!--container-->
+</article>
+
+<div class = "page" id = "news">
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <blockquote class="col-sm-6" id="galaxy7">
+                        <div id="samhead">News</div>
+                        <div class = "quote">
+                            <span class="intro"><h1>Samsung Galaxy S7 </h1></span>
+                    <span class="more">Last year, Samsung set the bar a little higher for the smartphone industry with the
+                        introduction of the Samsung Galaxy S6 ; the first mass-marketed phone to incorporate a curved screen.
+                        Now with the release of the Samsung Galaxy S7,
+                        the fine tuning of this remarkable device has begun.<a href="http://www.samsung.com/ie/consumer/mobile-devices/smartphones/galaxy-s/galaxy-s7/?cid=ie_ppc_google_product_core_broad-galaxys7-6058805229_20160224&gclid=CNTQqo6pnswCFaNQ2wodqhYDFA">Read more...</a>
+                  </span>
+
+                        </div>
+                    </blockquote>
+
+                    <blockquote class="col-sm-6" id="huawei">
+                        <div id="huwhead">Feature</div>
+
+                        <div class = "quote">
+                            <span class="intro"><h1>First look: Huawei P9 and P9 plus</h1></span>
+                    <span class="more">For many, first impressions count for everything when unboxing a phone for the first time.
+                        There’s little question that the Huawei P9 exudes quality from the moment you set hands on it — at only 144 grams
+                        and 6.95mm thick, it’s slender and unobtrusive in the hand, and the metal body oozes “premium.” As someone who’s more
+                        accustomed to a 5.5-inch screen, the Huawei P9 actually feels a little on the small side, but that says more about the
+                        market elsewhere than anything else.
+                        The Huawei P9 isn’t really too small.
+                      <a href="http://consumer.huawei.com/en/mobile-phones/p9plus/">Read more...</a>
+                  </span>
+                        </div>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    <div class="container">
+
+            <div class="row">
+
+              <div class="col-md-12" > <h1>
+                  <div class="panel panel-default">
+                      <div class="panel-body">
+                    <span id="best" ><h1>Best selling smart phones</h1></span>
+                      </div>
+                  </div>
+              </h1>
+              </div>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <a href="all_phones.html">
+                            <div class="thumbnail">
+                        <img src="images/thumbnails/Samsung-GalaxyS6-Black-Front.png" alt="samsung-galaxys6">
+
+                            <div class="caption">
+                                <h4>SAMSUNG GALAXY S6</h4>
+
+
+                            </div>
+                        </div>
+                        </a>
+
+                            <div class="thumbnail">
+                                <div class="caption">
+                                    <h3>Bill pay from  </h3>
+                                    <p class="price">
+                                        559.99<span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <a href="all_phones.html">
+                        <div class="thumbnail">
+                        <img src="images/thumbnails/HTC-ONEM9-Grey-Front.png" alt="htc">
+                        <div class="caption">
+                            <h4>HTC ONE M9</h4>
+
+
+                        </div>
+                    </div>
+                    </a>
+
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Bill pay from  </h3>
+                            <p class="price">
+                                629.99<span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <a href="all_phones.html">
+                        <div class="thumbnail">
+                             <img src="images/thumbnails/Apple-iPhone6Plus-SpaceGrey-Front.png" alt="apple">
+                        <div class="caption">
+                            <h4>APPLE IPHONE 6 16GB</h4>
+
+
+                        </div>
+                    </div>
+                    </a>
+
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Bill pay from  </h3>
+                            <p class="price">
+                                669.99<span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <a href=""> <div class="thumbnail">
+                        <img src="images/thumbnails/Huawei-P8-Black-Front.png" alt="huawei">
+                        <div class="caption">
+                            <h4>HUAWEI P8</h4>
+
+
+                        </div>
+                    </div>
+                    </a>
+
+                    <div class="thumbnail">
+                        <div class="caption">
+                            <h3>Bill pay from  </h3>
+                            <p class="price">
+                                379.99<span class="glyphicon glyphicon-euro" aria-hidden="true"></span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </div><!--container-->
+</div>
+
+
+
+<footer>
+    <div class="content container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Call us toll-free at <span class="phone">888-555-1212</span></p>
+
+                <p>All contents &copy; 2016 <a href="#">Slav @ Martin</a> All rights reserved. </p>
+            </div><!--col-sm-6-->
+            <div class="col-sm-6">
+                <nav class="navbar navbar-default" role="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </ul>
+                </nav>
+            </div><!--col-sm-6-->
+
+        </div><!--row-->
+
+    </div><!--container-->
+</footer>
+
+
+<script src="js/script.js"></script>
+</body>
+</html>

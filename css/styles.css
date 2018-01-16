@@ -1,0 +1,318 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+
+body{
+    padding: 0;
+    margin: 0;
+   font-family: "Roboto Slab",sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    position: relative;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+#logo{
+ font-size: 30px;
+    font-weight: 700;
+    color: #3298c8;
+
+
+}
+
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+
+}
+.navbar-default{
+    width: 100%;
+    z-index: 10;
+
+}
+.front{
+
+    margin-top:15px;
+}
+footer .navbar{
+    background: transparent;
+    border: none;
+    padding: 5px;
+}
+footer{
+
+    background-color:#a8a8a8;
+    padding: 5px;
+
+}
+#featured img{
+    width: 100%;
+
+    height: 650px;
+
+}
+
+
+
+#search{
+
+    width: 150px;
+
+
+}
+.adcontainer{
+
+    text-transform: uppercase;
+    text-align: center;
+    color:whitesmoke;
+
+    margin: 30px 0 30px 0;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 500px;
+    background-color:lightseagreen;
+
+
+
+}
+#samhead{
+    width:150px;
+    text-align: center;
+    padding: 10px;
+
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    background-color:coral;
+    position: absolute;
+    top:10px;
+    right:15px;
+
+
+}
+
+#huwhead{
+    width:150px;
+    text-align: center;
+    padding: 10px;
+
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    background-color:coral;
+    position: absolute;
+    top:10px;
+    right:15px;
+}
+.adcontainer:hover,.anchead:hover{
+    color:whitesmoke;
+    background-color: #3298c8;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+}
+article a:link{
+    text-decoration: none;
+}
+
+.adhead{
+    margin-right: 15px;
+}
+
+#news blockquote{
+
+    margin: 0;
+    padding: 0;
+    border-left: none;
+    min-height: 500px;
+    position: relative;
+}
+
+#news blockquote .quote{
+    background-color: rgba(255,255,255,.8);
+    padding: 20px 5%;
+    position: absolute;
+    bottom: 0;
+    width:75%;
+    font-weight: 400;
+    border-radius: 0 50px 0 0 ;
+
+
+}
+
+#news blockquote .quote:hover{
+    background-color: rgba(239,240,196,.9);
+}
+
+#news #galaxy7{
+    background: url(../images/gallery/samsung-salaxy-S7.jpg) no-repeat center center;
+    background-size: cover;
+
+}
+
+#news #huawei{
+    background: url(../images/gallery/Huawei-P8.jpg) no-repeat center center;
+    background-size: cover;
+}
+#news .quote{
+    font-size: 1.2em;
+    line-height: 110%;
+    font-weight: 400;
+}
+#news .quote h1{
+    font-weight: 700;
+}
+
+#news .quote .more,#news .quote .customer{
+     opacity: 0;
+     font-size: 0;
+     line-height: 0;
+     padding-top:10px ;
+ }
+#news .quote:hover .more{
+   font-family: "Open Sans",sans-serif;
+    font-weight: 400;
+    display: block;
+    opacity: 1;
+    font-size: .8em;
+    line-height: 120%;
+}
+
+#news .quote:hover .customer{
+    display: block;
+    font-size: .7em;
+    text-align: right;
+}
+
+#news .quote .intro::after{
+
+    content:'...' ;
+
+}
+
+#news .quote:hover .intro::after{
+
+    content:' ' ;
+
+}
+#news .panel-body{
+       padding: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+ #best h1{
+    display: block;
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+     padding: 15px;
+
+
+}
+ .thumbnail:hover,.nopadding:hover, button:hover{
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+
+ .caption{
+     text-align: center;
+ }
+ .price{
+     padding:5px;
+     color:midnightblue;
+     font-weight: 800;
+ }
+.navbar-btn{
+     margin-left: 8px;
+ }
+
+
+.signin a,.login a{
+    text-decoration: none;
+    color:black;
+}
+.signin a:hover{
+    color:white;
+}
+
+.top{
+    width:100%;
+    min-height: 50px;
+}
+.thumbnail img{
+
+
+	height:350px;
+	
+	
+}
+
+.btn-lg {
+    width:49%;
+
+
+}
+
+@media screen and (max-width: 755px) {
+    .thumbnail {
+        width:70%;
+        margin:0 auto;
+    }
+}
+
+.caption h4{
+    text-align:center;
+
+
+
+}
+#desc{
+    margin-top: 15px;
+}
+.nav-tabs{
+    padding: 15px;
+}
+.pr{
+    width:60%;
+    float:right;
+    padding: 15px;
+}
+#bill{
+    padding: 15px 0;
+}
+.pl{
+
+    float: left;
+    clear:both;
+    padding: 15px;
+}
+#bestprice{
+    padding: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+.nopadding{
+    padding: 0;
+}
+#logpic{
+    margin-top: 15px;
+}
+#summary{
+
+    float:right;
+}
+#pr-1{
+    text-align: center;
+    padding: 25px;
+
+}
+#empty{
+    visibility: hidden;
+}
+
